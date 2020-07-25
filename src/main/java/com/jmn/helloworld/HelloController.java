@@ -17,4 +17,9 @@ public class HelloController {
     public String helloEndPoint() {
         return "hello Eugene!";
     }
+
+    @RequestMapping(value = "/")
+    public String blank() {
+        return "hello from docker!";
+    }
 }
