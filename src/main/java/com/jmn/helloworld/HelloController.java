@@ -14,8 +14,8 @@ public class HelloController {
     public HelloController() {}
 
     @RequestMapping(value = "/hello")
-    public String helloEndPoint() {
-        return "hello Eugene!";
+    public String hello() {
+        return "hello Tim!";
     }
 
     @RequestMapping(value = "/")
