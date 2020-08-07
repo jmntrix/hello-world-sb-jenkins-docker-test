@@ -20,6 +20,6 @@ public class HelloController {
 
     @RequestMapping(value = "/")
     public String blank() {
-        return "hello from web-hook1!";
+        return "hello from web-hook2!";
     }
 }
